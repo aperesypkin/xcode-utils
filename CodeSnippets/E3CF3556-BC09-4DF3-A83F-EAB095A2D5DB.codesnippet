@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>_assembly</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+protocol I&lt;#Name#&gt;Assembly: AnyObject {
+    func assemble() -&gt; UIViewController
+}
+
+final class &lt;#Name#&gt;Assembly: I&lt;#Name#&gt;Assembly {
+    
+    // MARK: - I&lt;#Name#&gt;Assembly
+    
+    func assemble() -&gt; UIViewController {
+        let presenter = &lt;#Name#&gt;Presenter()
+        let controller = &lt;#Name#&gt;ViewController(presenter: presenter)
+        
+        presenter.view = controller
+        
+        return controller
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E3CF3556-BC09-4DF3-A83F-EAB095A2D5DB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Assembly</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

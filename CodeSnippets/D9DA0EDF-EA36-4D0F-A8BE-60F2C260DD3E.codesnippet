@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>_presenter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>protocol I&lt;#Name#&gt;Presenter: AnyObject {
+    func viewDidLoad()
+}
+
+final class &lt;#Name#&gt;Presenter {
+    
+    // Dependencies
+    weak var view: I&lt;#Name#&gt;View?
+    
+    // Models
+    
+    // MARK: - Initialization
+    
+    init() {
+        
+    }
+    
+    // MARK: - Private
+}
+
+// MARK: - I&lt;#Name#&gt;Presenter
+
+extension &lt;#Name#&gt;Presenter: I&lt;#Name#&gt;Presenter {
+    
+    func viewDidLoad() {
+        
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D9DA0EDF-EA36-4D0F-A8BE-60F2C260DD3E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Presenter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
